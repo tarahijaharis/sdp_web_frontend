@@ -1,0 +1,243 @@
+.login__main__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.login__left__side{
+    width: 65%;
+    height: 100vh;
+    background-image: linear-gradient(#FBAB7E, #F7CE68);
+    display: flex;
+    flex-direction: column;
+}
+
+.link__back__button{
+    margin-top: 3.5rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.back__button{
+    position: relative;
+    margin-left: 2rem;
+    color: #032737;
+    font-size: 1rem;
+}
+
+.login__left__side h1{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 32px;
+}
+
+.login__cards{
+    height: 13rem;
+    width: 17rem;
+    background-color: #032737;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #FAFAFA;
+    padding: 0 2.5rem 0 2.5rem ;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.card__logo__name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: #FAFAFA;
+}
+
+.card__number{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__name__validate{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__left__side__footer h2{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.login__left__side__footer p{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    font-size: 0.5rem;
+}
+
+.login__right__side{
+    background-color: #032737;
+    width: 35%;
+    color: #D9E3E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__right__side h2{
+    margin-top: 6rem;
+    font-size: 1.5em;
+
+}
+.first__p p{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    padding: 0rem 1rem;
+    font-size: 0.875em;
+}
+.second__p p{
+    margin-left: 1.5rem;
+    padding: 0rem 1rem;
+    font-size: 0.875em;
+}
+
+.login__parameters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    margin-left: 1.75rem;
+    margin-top: 1rem;
+}
+::placeholder{
+    color: #D9E3E9;
+    font-size: 0.65rem;
+}
+.n{
+    width: 100%;
+    background-color: #0F3949;
+    color: #D9E3E9;
+    padding: 0.75rem 1.25rem;
+    margin-top: 8px;
+    display: inline-block;
+    border: 1px solid #0F3949;
+    border-radius: 4px 4px 0px 0px;
+    box-sizing: border-box;    
+}
+.n:focus{
+    background-color: #0F3949;
+    outline: none;
+}
+.e{
+    width: 100%;
+    background-color: #0A3142;
+    color: #D9E3E9;
+    padding: 0.75rem 1.25rem;
+    display: inline-block;
+    border: 1px solid #0A3142;
+    border-style: none;
+    box-sizing: border-box; 
+}
+.e:focus{
+    background-color: #0A3142;
+    outline: none;
+}
+.p{
+    width: 100%;
+    background-color: #0F3949;
+    color: #D9E3E9;
+    font-size: 10px;
+    padding: 0.75rem 1.25rem;
+    display: inline-block;
+    border: 1px solid #0F3949;
+    border-radius: 0px 0px 4px 4px;
+    box-sizing: border-box; 
+}
+.p:focus{
+    background-color: #0F3949;
+    outline: none;
+}
+.login__terms{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.login__right__side__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.b{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 5.5rem;
+}
+.login__terms p{
+    margin-top: 1.75rem;
+    font-size: 0.5rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+.login__signup__button{
+    margin-top: 2rem;
+    width: 65%;
+    margin-left: 1.75rem;
+    background-color: #07A152;
+    color: #D9E3E9;
+    height: 5%;
+    border: none;
+    border-radius: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.login__signup__button:focus{
+    outline: none;
+}
+.login__signup__button:hover{
+    background-color: #098847;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.login__right__side__footer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login__right__side__footer p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 0.55rem;
+}

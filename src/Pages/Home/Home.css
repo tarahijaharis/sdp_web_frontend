@@ -1,0 +1,63 @@
+
+.Home_main{
+    width: 100%;
+    height: 100vh;
+    background-color: #032737;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+
+.Login_Button{
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    color: #FAFAFA;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.Registration_Button{
+    background-color: transparent;
+    border: 1px solid #07A152;
+    color:  #FAFAFA;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.Registration_Button:hover {
+    background-color: #07A152; /* Green */
+    color:#FAFwAFA;
+    border-radius: 4px;
+
+}
+.Registration_Button:focus{
+    outline: none;
+}
+
+.Login_Button:hover {
+    background-color:#FAFAFA;
+    color: #032737;
+    border-radius: 4px;
+}
+
+.Login_Button:focus{
+    outline: none;
+}
+  

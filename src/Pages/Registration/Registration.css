@@ -1,0 +1,133 @@
+.login-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texbox_reg_main{
+    display: flex;
+    margin-top: 14vh;
+    background-color: #16A085;
+    border-radius: 8px;
+    padding: 2vh 4vh 4vh 4vh;
+}
+.textbox_reg_submain{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #FAFAFA;
+}
+.reg_name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.reg_name label{
+    margin-bottom: 4px;
+}
+.reg_name input{
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+    width: 100%;
+    height: 1.5em;
+}
+.reg_email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.reg_email label{
+    margin-bottom: 4px;
+}
+.reg_email input{
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+    width: 100%;
+    height: 1.5em;
+}
+.reg_pw{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.reg_pw label{
+    margin-bottom: 4px;
+}
+.reg_pw input{
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+    width: 100%;
+    height: 1.5em;
+}
+.reg_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.submit{
+    margin-right: 20px;
+    background-color:#16A085;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    color:  #FAFAFA;
+    transition-duration: 0.6s;
+    border-radius: 4px;
+}
+
+.Back{
+    background-color: #16A085;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    color: #FAFAFA;
+    transition-duration: 0.6s;
+    border-radius: 4px;
+}
+
+.submit:hover {
+    background-color: #FAFAFA; /* Green */
+    color: #16A085;
+    border-radius: 4px;
+}
+.Back:hover {
+    background-color: #FAFAFA; /* Green */
+    color: #16A085;
+    border-radius: 4px;
+}
+
+.Text_main{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instituions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sdp{
+    margin-bottom: 4%;
+}
+
+.etf{
+    margin-right: 20px;
+}
+
+.dot{
+    margin-left: 20px;
+}
